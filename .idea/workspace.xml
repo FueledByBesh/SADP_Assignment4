@@ -4,14 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4eefe8e0-6332-4941-b86e-29a65f1c63cb" name="Changes" comment="" />
+    <list default="true" id="4eefe8e0-6332-4941-b86e-29a65f1c63cb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/fitness/appinterface/ApplicationInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/fitness/appinterface/ApplicationInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/fitness/system/MaintenanceNutritionPlanBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/fitness/system/MaintenanceNutritionPlanBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/fitness/system/NutritionPlan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/fitness/system/NutritionPlan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/fitness/system/NutritionPlanBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/fitness/system/NutritionPlanBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/fitness/system/WeightGainNutritionPlanBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/fitness/system/WeightGainNutritionPlanBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/fitness/system/WeightLossNutritionPlanBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/fitness/system/WeightLossNutritionPlanBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/fitness/system/enums/FitnessGoalType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/fitness/system/enums/FitnessGoalType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/mazegame/system/DoorWall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/mazegame/system/DoorWall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/mazegame/system/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/mazegame/system/Maze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/mazegame/system/MazeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/mazegame/system/MazeGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/mazegame/system/Prototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/mazegame/system/Prototype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/mazegame/system/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/mazegame/system/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/mazegame/system/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/mazegame/system/Wall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/mazegame/system/enums/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/mazegame/system/enums/Direction.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -30,10 +59,31 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="ApplicationInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.fitness.appinterface.ApplicationInterface" />
+      <module name="SADP_Assignment4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.fitness.appinterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ApplicationInterface" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,7 +92,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712663315412</updated>
+      <workItem from="1712663316796" duration="7520000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

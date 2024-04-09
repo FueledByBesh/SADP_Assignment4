@@ -1,2 +1,5 @@
-package app.mazegame.system;public class Wall {
+package app.mazegame.system;
+
+public class Wall{
+
 }

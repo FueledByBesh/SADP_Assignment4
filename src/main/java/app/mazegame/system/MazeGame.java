@@ -3,11 +3,8 @@ package app.mazegame.system;
 import app.mazegame.system.enums.Direction;
 
 public class MazeGame {
-    public static void main (String [] argv) {
-        createMaze();
-    }
 
-    private static Maze createMaze () {
+    public Maze createMaze () {
         Maze aMaze = new Maze();
 
         Room r1 = new Room(1);

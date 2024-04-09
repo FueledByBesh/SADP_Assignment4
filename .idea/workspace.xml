@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4eefe8e0-6332-4941-b86e-29a65f1c63cb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/fitness/appinterface/ApplicationInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/fitness/appinterface/ApplicationInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/fitness/system/MaintenanceNutritionPlanBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/fitness/system/MaintenanceNutritionPlanBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/fitness/system/NutritionPlan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/fitness/system/NutritionPlan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/fitness/system/NutritionPlanBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/fitness/system/NutritionPlanBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/fitness/system/WeightGainNutritionPlanBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/fitness/system/WeightGainNutritionPlanBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/fitness/system/WeightLossNutritionPlanBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/fitness/system/WeightLossNutritionPlanBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/fitness/system/enums/FitnessGoalType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/fitness/system/enums/FitnessGoalType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/mazegame/system/DoorWall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/mazegame/system/DoorWall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/mazegame/system/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/mazegame/system/Maze.java" afterDir="false" />
+    <list default="true" id="4eefe8e0-6332-4941-b86e-29a65f1c63cb" name="Changes" comment="Initial Committ">
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/mazegame/appinterface/GameInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/mazegame/system/MazeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/mazegame/system/MazeGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/mazegame/system/Prototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/mazegame/system/Prototype.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/mazegame/system/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/mazegame/system/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/mazegame/system/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/mazegame/system/Wall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/mazegame/system/enums/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/mazegame/system/enums/Direction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +17,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -92,8 +84,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712663315412</updated>
-      <workItem from="1712663316796" duration="7520000" />
+      <workItem from="1712663316796" duration="8079000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Committ">
+      <created>1712683462871</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712683462871</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,5 +109,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Committ" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Committ" />
   </component>
 </project>

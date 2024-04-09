@@ -5,24 +5,14 @@ import app.mazegame.system.enums.Direction;
 public class MazeGame {
 
     public Maze createMaze () {
-        Maze aMaze = new Maze();
 
-        Room r1 = new Room(1);
-        Room r2 = new Room(2);
-        DoorWall d = new DoorWall(r1, r2 );
+        DoorWall d = new DoorWall();
 
-        aMaze.addRoom(r1);
-        aMaze.addRoom(r2);
+        Room r1 = new RoomBuilder(1).setDoorWall(Direction.NORTH,d).build();
+        Room r2 = new RoomBuilder(2).setDoorWall(Direction.SOUTH,d).build();
 
-        r1.setSide(Direction.NORTH, d);
-        r1.setSide(Direction.EAST,	new Wall());
-        r1.setSide(Direction.SOUTH,	new Wall());
-        r1.setSide(Direction.WEST,	new Wall());
-        r2.setSide(Direction.NORTH,	new Wall());
-        r2.setSide(Direction.EAST,	new Wall());
-        r2.setSide(Direction.SOUTH,	d);
-        r2.setSide(Direction.WEST,	new Wall());
+        Maze maze = new MazeBuilder().addRoom(r1).addRoom(r2).build();
 
-        return aMaze ;
+        return maze ;
     }
 }

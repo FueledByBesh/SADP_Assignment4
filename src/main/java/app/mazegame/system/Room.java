@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Room implements Prototype{
-    private Map<Direction, Wall> sides = new HashMap<Direction, Wall>();
+    private Map<Direction, Wall> sides = new HashMap<>();
     private int roomNo;
 
     public Room (int roomNo) {

@@ -1,14 +1,20 @@
 package app.mazegame.system;
 
 public class DoorWall extends Wall {
-    private Room r1;
-    private Room r2;
+
     private boolean isOpen;
 
-    public DoorWall (Room r1, Room r2) {
-        this.r1 = r1;
-        this.r2 = r2;
+    public DoorWall () {
         this.isOpen = false;
     }
+
+    public void openDoor(){
+        this.isOpen = true;
+    }
+
+    public void closeDoor(){
+        this.isOpen = false;
+    }
+
 
 }

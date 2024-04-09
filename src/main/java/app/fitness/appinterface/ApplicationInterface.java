@@ -23,6 +23,5 @@ public class ApplicationInterface {
                 .build();
 
         System.out.println(nutritionPlan.toString());
-
     }
 }
